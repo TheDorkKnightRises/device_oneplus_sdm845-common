@@ -139,6 +139,9 @@ on charger
 on init && property:ro.boot.usbcontroller=*
     setprop sys.usb.controller ${ro.boot.usbcontroller}
 
+on charger
+    write /sys/class/backlight/panel0-backlight/brightness 150
+
 service dashd /sbin/dashd
     class core
     critical
