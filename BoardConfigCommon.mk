@@ -75,6 +75,9 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Treble
 BOARD_VNDK_VERSION := current
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
