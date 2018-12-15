@@ -8,16 +8,9 @@
     "target_path" : "vendor/oneplus"
   },
   {
-    "repository"  : "anirudhgupta109/vendor_pixelgapps",
-    "target_path" : "vendor/pixelgapps",
-    "branch"      : "pie",
-    "remote"      : "gitlab"
-  },
-  {
-    "repository"  : "anirudhgupta109/gcc-prebuilts",
-    "target_path" : "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2",
-    "branch"      : "8.2.1",
-    "remote"      : "gitlab"
+    "remote"     : "potato",
+    "repository" : "prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-8.2.1",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2.1"
   },
   {
     "repository"  : "LineageOS/android_packages_resources_devicesettings",
