@@ -47,10 +47,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
-# ANT+
-PRODUCT_PACKAGES += \
-    AntHalService
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default
@@ -135,6 +131,15 @@ PRODUCT_PACKAGES += \
     init.spectrum.rc \
     init.special_power.sh \
     init.spectrum.sh
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+    
+ PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # tri-state-key
 PRODUCT_PACKAGES += \
